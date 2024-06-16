@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Coffee Shop Page</title>
+
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Custom CSS File Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section Starts -->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="logo.jpeg" alt="Logo" class="circular-image">
+        </a>
+        <nav class="navbar">
+            <div id="close" class="fas fa-times"></div>
+            <a href="#" class="nav_item">Home</a>
+            <a href="#" class="nav_item">About</a>
+            <a href="#" class="nav_item">Menu</a>
+            <a href="#" class="nav_item">Contact</a>
+        </nav>
+        <div id="menu" class="fas fa-bars"></div>
+    </header>
+    <!-- Header Section Ends -->
+
+    <!-- Home Section Starts -->
+    <section class="home">
+        <div class="content">
+            <h1 class="title">Fresh <span>Coffee</span> in the <span>Morning</span></h1>
+            <p class="description">Start your day with the invigorating aroma of freshly brewed coffee. Our expertly roasted beans provide a perfect balance of rich flavor and smooth notes, setting a positive tone for your morning.</p>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+        <div class="image">
+            <img src="home.jpeg" alt="Coffee" data-speed="-3" class="move">
+        </div>
+    </section>
+    <!-- Home Section Ends -->
+
+    <!-- GSAP CDN Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <!-- Custom JS File Link -->
+    <script src="script.js"></script>
+</body>
+</html>
+
